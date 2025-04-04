@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
+.ju{
+    justify-content: space-evenly;
+}
+.derection{
+    flex-direction: column;
+}
+.cricle{
+    border-radius: 50%;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 540px;
+}
+.scroll{
+    overflow:scroll;
+    scrollbar-width: thin;
+}
+.Top{
+    background-color: red;
+    height: 50px;
+}
+.Right{
+    width: 20%;
+    background-color: blue;
+    padding: 20px 0px;
+    gap: 50px;
+}
+.Left{
+    background-color: palevioletred;
+}
+.img{
+    width: 300px;
+    height: 180px;
+}
+.video{
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: beige; */
+}
+.playvi{
+    width: 300px;
+    gap: 10px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.icontil{
+    gap: 10px;
+}
+.title{
+    gap: 3px;
+}
+.category{
+    gap: 20px;
+}
